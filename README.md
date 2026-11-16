@@ -1,146 +1,220 @@
+# AI/ML Mini-Projects Portfolio
 
-# AI & Machine Learning Mini Projects
+Welcome to my **AI/ML Mini-Projects Portfolio!** 🚀
 
-### A Collection of 9 Hands-On AI, Machine Learning, and NLP Projects
+This repository contains nine hands-on projects exploring Artificial Intelligence, Machine Learning, Natural Language Processing, Data Analysis, Automation, and Web Development using Python.
 
-Welcome to my AI & Machine Learning Mini Projects repository!
+The goal of this collection is to strengthen my practical programming skills, understand important AI/ML concepts, and build real-world applications through project-based learning.
 
-This repository documents my practical learning journey
-through Artificial Intelligence, Machine Learning,
-Natural Language Processing, Deep Learning, and
-Data Analytics using Python.
+## 📌 Portfolio Overview
 
-The collection includes projects involving text
-classification, regression, exploratory data analysis,
-chatbots, automation, and language translation.
+- **Total Projects:** 9
+- **Projects Implemented:** 9
+- **Primary Language:** Python
+- **Focus Areas:** Machine Learning, NLP, Data Science, Transformers, Chatbots, and Automation
+- **Development Environment:** VS Code, Python Virtual Environment, Git, GitHub
 
-Each project is organized in its own folder with
-source code, dependencies, and documentation.
-
----
-
-## Project Collection
+## 📂 Project Collection
 
 | No. | Project | Key Technologies | Status |
-|-----|---------|------------------|--------|
-| 01 | [Spam Detection](./01-Spam-Email-Detection/) | Python, NLP, TF-IDF, Scikit-learn, Naive Bayes | Completed |
-| 02 | Calories Burned Prediction | Python, Pandas, Scikit-learn, Regression | Planned |
-| 03 | YouTube Trending Videos Analysis | Python, Pandas, NumPy, Matplotlib, Seaborn | Planned |
-| 04 | Hate Speech Detection | Python, NLP, Deep Learning | Planned |
-| 05 | Chatbot with NLP | Python, NLTK | Planned |
-| 06 | Text Autocorrector | Python, N-grams, NLP | Planned |
-| 07 | Telegram Bot | Python, Telegram Bot API | Planned |
-| 08 | Flask Chatbot | Python, Flask, HTML, CSS | Planned |
-| 09 | Language Translation | Python, Transformers, NLP | Planned |
+|---|---|---|---|
+| 01 | [Spam Detection](./01-Spam-Email-Detection/) | Python, NLP, TF-IDF, Scikit-learn, Naive Bayes | ✅ Completed |
+| 02 | [Calories Burned Prediction](./02-Calories-Burned-Prediction/) | Python, Pandas, Scikit-learn, Random Forest Regression | ✅ Completed |
+| 03 | [YouTube Trending Videos Analysis](./03-YouTube-Trending-Videos-Analysis/) | Python, Pandas, NumPy, Matplotlib, Seaborn | ✅ Completed |
+| 04 | [Hate Speech Detection](./04-Hate-Speech-Detection/) | Python, NLP, TF-IDF, Logistic Regression | ✅ Completed |
+| 05 | [Chatbot with NLP](./05-Chatbot-with-NLP/) | Python, NLTK, TF-IDF, Scikit-learn | ✅ Completed |
+| 06 | [Text Autocorrector](./06-Text-Autocorrector/) | Python, N-grams, NLP, Edit Distance | ✅ Completed |
+| 07 | [Telegram Bot](./07-Telegram-Bot/) | Python, Telegram Bot API, python-telegram-bot | ✅ Completed |
+| 08 | [Flask Chatbot](./08-Flask-Chatbot/) | Python, Flask, HTML, CSS, JavaScript | ✅ Completed |
+| 09 | [Language Translation Using Transformers](./09-Language-Translation/) | Python, PyTorch, Hugging Face Transformers, MarianMT | 🔄 Testing |
 
-Project links will be added as each project is completed.
+**Note:** Project 9 is marked as testing until its translation program runs successfully. Once tested, change its status to `✅ Completed`.
 
----
-
-## Featured Project: Spam Detection
-
-### Project 01 — Spam Detection Using Machine Learning
-
-A text classification system that identifies SMS
-messages as spam or legitimate (ham).
-
-The model uses TF-IDF vectorization and a
-Multinomial Naive Bayes classifier.
-
-**Key Results:**
-
-- Test Accuracy: **97.04%**
-- Spam Precision: **100%**
-- Spam Recall: **77.85%**
-- Spam F1-score: **0.88**
-- Dataset: **5,572 SMS messages**
-- Test Set: **1,115 messages**
-
-**What I implemented:**
-
-- Dataset loading and preparation
-- TF-IDF feature extraction
-- Stratified train-test splitting
-- Multinomial Naive Bayes classification
-- Model evaluation using classification metrics
-- Model serialization with Joblib
-- Interactive message classification in the terminal
-
-**Project Link:**
-
-[View Spam Detection Project](./01-Spam-Email-Detection/)
-
-Note: This project uses an SMS dataset rather than
-an email-specific dataset.
+Each project has its own folder containing source code, dependencies, and documentation.
 
 ---
 
-## Technologies and Tools
+## 🌟 Featured Projects
 
-### Programming
+### 01 — Spam Detection
 
+A machine learning application that classifies text messages as spam or legitimate.
+
+**Technologies:** Python, Scikit-learn, TF-IDF, Multinomial Naive Bayes
+
+**Highlights:**
+- Text preprocessing and feature extraction
+- Spam classification using supervised machine learning
+- Model evaluation using accuracy and classification metrics
+
+**Model Accuracy:** 97.04%
+
+[View Project](./01-Spam-Email-Detection/)
+
+### 02 — Calories Burned Prediction
+
+A regression-based machine learning project that predicts calories burned during physical activity.
+
+**Technologies:** Python, Pandas, Scikit-learn, Random Forest Regressor
+
+**Highlights:**
+- Data preprocessing and feature engineering
+- Regression model training
+- Model evaluation using MAE, RMSE, and R²
+
+**Results:**
+- MAE: 1.70
+- RMSE: 2.67
+- R² Score: 0.9982
+
+[View Project](./02-Calories-Burned-Prediction/)
+
+### 03 — YouTube Trending Videos Analysis
+
+An exploratory data analysis project examining YouTube trending video statistics.
+
+**Technologies:** Python, Pandas, NumPy, Matplotlib, Seaborn
+
+**Highlights:**
+- Dataset cleaning and exploration
+- Analysis of video views, likes, comments, and categories
+- Data visualization and trend identification
+
+[View Project](./03-YouTube-Trending-Videos-Analysis/)
+
+### 04 — Hate Speech Detection
+
+An NLP-based classification project for detecting hate speech and offensive language in text.
+
+**Technologies:** Python, NLP, TF-IDF, Logistic Regression
+
+**Highlights:**
+- Text cleaning and preprocessing
+- Multi-class text classification
+- Classification report and confusion matrix
+
+**Model Accuracy:** 86.86%
+
+[View Project](./04-Hate-Speech-Detection/)
+
+### 05 — Chatbot with NLP
+
+An intent-based chatbot that recognizes user messages and generates predefined responses.
+
+**Technologies:** Python, NLTK, TF-IDF, Logistic Regression
+
+**Highlights:**
+- Text tokenization and stemming
+- Intent classification
+- Interactive terminal-based chatbot
+- Saving and loading trained models using Joblib
+
+**Test Accuracy:** 87.50% on the project's test split
+
+[View Project](./05-Chatbot-with-NLP/)
+
+### 06 — Text Autocorrector
+
+A Python-based text correction application using N-gram language modeling and word similarity.
+
+**Technologies:** Python, NLP, Unigrams, Bigrams
+
+**Highlights:**
+- Vocabulary generation from training text
+- Spelling correction suggestions
+- Context-aware candidate ranking
+- Interactive text correction
+
+[View Project](./06-Text-Autocorrector/)
+
+### 07 — Telegram Bot Using Python
+
+An interactive Telegram chatbot developed using Python and the Telegram Bot API.
+
+**Technologies:** Python, python-telegram-bot, python-dotenv
+
+**Highlights:**
+- Telegram BotFather integration
+- Command handling
+- Automated message responses
+- Secure API token management using environment variables
+
+[View Project](./07-Telegram-Bot/)
+
+### 08 — Flask Chatbot with Web Interface
+
+A browser-based chatbot application with a Python backend and interactive frontend.
+
+**Technologies:** Python, Flask, HTML, CSS, JavaScript
+
+**Highlights:**
+- Responsive chatbot interface
+- Flask API endpoints
+- JavaScript Fetch API integration
+- Rule-based automated responses
+- Frontend and backend communication
+
+[View Project](./08-Flask-Chatbot/)
+
+### 09 — Language Translation Using Transformers
+
+An English-to-French language translation application using a pretrained Transformer model.
+
+**Technologies:** Python, PyTorch, Hugging Face Transformers, MarianMT
+
+**Highlights:**
+- Pretrained Transformer model integration
+- Text tokenization
+- English-to-French machine translation
+- Interactive terminal-based translator
+- Translation history saved to a text file
+
+**Model:** `Helsinki-NLP/opus-mt-en-fr`
+
+[View Project](./09-Language-Translation/)
+
+---
+
+## 🛠️ Technologies and Tools
+
+### Programming Language
 - Python
-- HTML and CSS (planned)
 
 ### Machine Learning
-
 - Scikit-learn
-- Classification algorithms
-- Regression algorithms
-- Model evaluation techniques
+- Random Forest
+- Naive Bayes
+- Logistic Regression
 
 ### Natural Language Processing
-
-- TF-IDF Vectorization
-- NLTK (planned)
-- N-gram language models (planned)
-- Transformers (planned)
+- NLTK
+- TF-IDF
+- N-gram Language Models
+- Hugging Face Transformers
+- MarianMT
 
 ### Data Analysis and Visualization
-
 - Pandas
 - NumPy
-- Matplotlib (planned)
-- Seaborn (planned)
+- Matplotlib
+- Seaborn
+
+### Web Development and Automation
+- Flask
+- HTML
+- CSS
+- JavaScript
+- Telegram Bot API
 
 ### Development Tools
-
 - Visual Studio Code
-- Git
-- GitHub
-- Python virtual environments
-- Jupyter Notebook (planned)
-
-### Additional Technologies to Explore
-
-- Flask
-- Telegram Bot API
-- Deep Learning frameworks
+- Git and GitHub
+- Python Virtual Environments
+- Jupyter Notebook
 
 ---
 
-## Repository Structure
-
-```text
-AI-ML-Mini-Projects/
-|
-|-- 01-Spam-Email-Detection/
-|   |-- spam_detector.py
-|   |-- requirements.txt
-|   |-- README.md
-|   |-- SMSSpamCollection.tsv
-|   |-- DATASET_INFO.txt
-|
-|-- README.md
-|-- .gitignore
-```
-
-Additional project folders will be added as
-development progresses.
-
----
-
-## Getting Started
+## 🚀 Getting Started
 
 ### 1. Clone the Repository
 
@@ -148,125 +222,102 @@ development progresses.
 git clone https://github.com/shrutijha-git/AI-ML-Mini-Projects.git
 ```
 
-### 2. Navigate to the Repository
+### 2. Navigate to the Project Folder
 
 ```bash
 cd AI-ML-Mini-Projects
 ```
 
-### 3. Open a Project Folder
-
-For example:
-
-```bash
-cd 01-Spam-Email-Detection
-```
-
-### 4. Create a Virtual Environment
+### 3. Create a Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-### 5. Activate the Virtual Environment
+### 4. Activate the Virtual Environment
 
-On Windows PowerShell:
+For Windows PowerShell:
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
 
-### 6. Install Dependencies
+For Windows Command Prompt:
 
-```bash
-python -m pip install -r requirements.txt
+```cmd
+.venv\Scripts\activate.bat
 ```
 
-### 7. Run the Project
+### 5. Install Project Dependencies
+
+Each project contains its own `requirements.txt` file.
+
+For example, to install dependencies for the Flask Chatbot:
 
 ```bash
-python spam_detector.py
+python -m pip install -r 08-Flask-Chatbot/requirements.txt
 ```
 
-Refer to each project's README for
-project-specific setup and usage instructions.
+### 6. Run a Project
+
+For example:
+
+```bash
+python 08-Flask-Chatbot/app.py
+```
+
+Refer to each project's individual README for its setup instructions.
+
+Some projects require additional datasets, pretrained model downloads, or environment variables.
 
 ---
 
-## Learning Objectives
+## 📚 Key Learning Outcomes
 
-Through these projects, I aim to strengthen
-my practical understanding of:
+Through these projects, I gained practical experience in:
 
-- Data preprocessing and feature engineering
-- Supervised machine learning
-- Classification and regression
-- Exploratory data analysis
-- Natural Language Processing
-- Deep Learning fundamentals
-- Model training and evaluation
-- Building Python-based applications
-- Working with APIs
-- Developing reproducible AI/ML workflows
-
----
-
-## Development Roadmap
-
-- [x] 01 — Spam Detection
-- [ ] 02 — Calories Burned Prediction
-- [ ] 03 — YouTube Trending Videos Analysis
-- [ ] 04 — Hate Speech Detection
-- [ ] 05 — Chatbot with NLP
-- [ ] 06 — Text Autocorrector
-- [ ] 07 — Telegram Bot
-- [ ] 08 — Flask Chatbot
-- [ ] 09 — Language Translation
+- Python programming and problem-solving
+- Data preprocessing and exploratory data analysis
+- Supervised machine learning and model evaluation
+- Text classification and natural language processing
+- N-gram language modeling
+- Building interactive chatbots
+- Integrating APIs and environment variables
+- Developing web applications with Flask
+- Using pretrained Transformer models
+- Managing Python dependencies
+- Organizing and documenting projects with Git and GitHub
 
 ---
 
-## About This Repository
+## 🔮 Future Improvements
 
-This repository is a growing collection of
-hands-on AI and Machine Learning mini-projects.
-
-My goal is to develop a stronger foundation
-in machine learning algorithms, NLP techniques,
-data analytics, and practical AI applications.
-
-Projects are being rebuilt, tested, and documented
-as part of my continued learning and portfolio
-development.
+- Deploy selected projects as interactive web applications
+- Build more advanced chatbot systems
+- Improve model evaluation and performance
+- Explore deep learning architectures
+- Add multilingual NLP capabilities
+- Experiment with additional Transformer models
+- Develop user-friendly interfaces for ML applications
 
 ---
 
-## Connect With Me
+## 👩‍💻 About This Repository
 
-**GitHub:**
-https://github.com/shrutijha-git
+This repository documents my hands-on learning journey in Artificial Intelligence and Machine Learning.
 
-**LinkedIn:**
-https://www.linkedin.com/in/shrutijha21/
+Each project represents an opportunity to explore a new concept, implement it using Python, troubleshoot real development challenges, and improve my technical skills.
 
----
-
-## Dataset Credits
-
-Individual projects use publicly available datasets
-where applicable.
-
-Dataset sources, citations, and licensing
-information are documented in their respective
-project folders.
-
-For the Spam Detection project, the dataset is
-the SMS Spam Collection v.1 by Tiago A. Almeida
-and José María Gómez Hidalgo.
+The projects are intended for learning, experimentation, and portfolio demonstration.
 
 ---
 
-### Repository Status
+## ⭐ Support
 
-**1 of 9 projects completed.**
+If you find this repository helpful, consider giving it a star!
 
-More projects will be added as development continues.
+**GitHub Repository:** [AI-ML-Mini-Projects](https://github.com/shrutijha-git/AI-ML-Mini-Projects)
+
+---
+
+**Built with Python, curiosity, and a passion for learning AI/ML.** 🚀
