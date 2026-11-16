@@ -1,0 +1,12 @@
+TEXT AUTOCORRECTOR RESULTS
+========================================
+
+Original : i love prgming
+Corrected: i love prgming
+
+Original : i love programing in pythn
+Corrected: i love programming in python
+
+Original : i lov programing in pythn
+Corrected: i love programming in python
+
