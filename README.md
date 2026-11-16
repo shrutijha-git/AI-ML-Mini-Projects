@@ -1,190 +1,218 @@
-# AI/ML Mini-Projects Portfolio
+# 🚀 AI/ML Mini-Projects Portfolio
 
-Welcome to my **AI/ML Mini-Projects Portfolio!** 🚀
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Projects-green)
+![NLP](https://img.shields.io/badge/NLP-Projects-orange)
+![Projects](https://img.shields.io/badge/Projects-9%2F9%20Completed-brightgreen)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-This repository contains nine hands-on projects exploring Artificial Intelligence, Machine Learning, Natural Language Processing, Data Analysis, Automation, and Web Development using Python.
+Welcome to my **Artificial Intelligence and Machine Learning Mini-Projects Portfolio!**
 
-The goal of this collection is to strengthen my practical programming skills, understand important AI/ML concepts, and build real-world applications through project-based learning.
+This repository showcases nine hands-on projects developed using Python and various AI/ML technologies.
 
-## 📌 Portfolio Overview
+The projects cover Machine Learning, Natural Language Processing (NLP), Data Analysis, Chatbots, Web Development, Automation, and Transformer-based Language Translation.
 
-- **Total Projects:** 9
-- **Projects Implemented:** 9
-- **Primary Language:** Python
-- **Focus Areas:** Machine Learning, NLP, Data Science, Transformers, Chatbots, and Automation
-- **Development Environment:** VS Code, Python Virtual Environment, Git, GitHub
+The purpose of this repository is to strengthen my practical understanding of AI/ML concepts through real-world implementation and project-based learning.
+
+---
+
+## 📊 Portfolio Overview
+
+| Category | Details |
+|---|---|
+| Total Projects | 9 |
+| Completed Projects | 9 |
+| Programming Language | Python |
+| Focus Areas | Machine Learning, NLP, Data Science, Transformers |
+| Development Tools | VS Code, Git, GitHub |
+| Overall Status | ✅ 100% Completed |
+
+---
 
 ## 📂 Project Collection
 
 | No. | Project | Key Technologies | Status |
 |---|---|---|---|
 | 01 | [Spam Detection](./01-Spam-Email-Detection/) | Python, NLP, TF-IDF, Scikit-learn, Naive Bayes | ✅ Completed |
-| 02 | [Calories Burned Prediction](./02-Calories-Burned-Prediction/) | Python, Pandas, Scikit-learn, Random Forest Regression | ✅ Completed |
+| 02 | [Calories Burned Prediction](./02-Calories-Burned-Prediction/) | Python, Pandas, Scikit-learn, Random Forest | ✅ Completed |
 | 03 | [YouTube Trending Videos Analysis](./03-YouTube-Trending-Videos-Analysis/) | Python, Pandas, NumPy, Matplotlib, Seaborn | ✅ Completed |
 | 04 | [Hate Speech Detection](./04-Hate-Speech-Detection/) | Python, NLP, TF-IDF, Logistic Regression | ✅ Completed |
-| 05 | [Chatbot with NLP](./05-Chatbot-with-NLP/) | Python, NLTK, TF-IDF, Scikit-learn | ✅ Completed |
-| 06 | [Text Autocorrector](./06-Text-Autocorrector/) | Python, N-grams, NLP, Edit Distance | ✅ Completed |
+| 05 | [Chatbot with NLP](./05-Chatbot-with-NLP/) | Python, NLTK, TF-IDF, Logistic Regression | ✅ Completed |
+| 06 | [Text Autocorrector](./06-Text-Autocorrector/) | Python, N-grams, NLP | ✅ Completed |
 | 07 | [Telegram Bot](./07-Telegram-Bot/) | Python, Telegram Bot API, python-telegram-bot | ✅ Completed |
 | 08 | [Flask Chatbot](./08-Flask-Chatbot/) | Python, Flask, HTML, CSS, JavaScript | ✅ Completed |
-| 09 | [Language Translation Using Transformers](./09-Language-Translation/) | Python, PyTorch, Hugging Face Transformers, MarianMT | 🔄 Testing |
+| 09 | [Language Translation Using Transformers](./09-Language-Translation/) | Python, PyTorch, Hugging Face Transformers, MarianMT | ✅ Completed |
 
-**Note:** Project 9 is marked as testing until its translation program runs successfully. Once tested, change its status to `✅ Completed`.
+**🎉 All 9 projects successfully completed!**
 
-Each project has its own folder containing source code, dependencies, and documentation.
+Each project contains its own source code, dependencies, and documentation.
 
 ---
 
-## 🌟 Featured Projects
+## 🌟 Project Details
 
-### 01 — Spam Detection
+### 📧 01 — Spam Detection
 
-A machine learning application that classifies text messages as spam or legitimate.
+A machine learning application that classifies messages as spam or legitimate using Natural Language Processing techniques.
 
 **Technologies:** Python, Scikit-learn, TF-IDF, Multinomial Naive Bayes
 
-**Highlights:**
-- Text preprocessing and feature extraction
-- Spam classification using supervised machine learning
-- Model evaluation using accuracy and classification metrics
+**Features:**
+- Text preprocessing and cleaning
+- TF-IDF feature extraction
+- Spam classification
+- Model evaluation
 
 **Model Accuracy:** 97.04%
 
-[View Project](./01-Spam-Email-Detection/)
+📁 [View Project](./01-Spam-Email-Detection/)
 
-### 02 — Calories Burned Prediction
+### 🔥 02 — Calories Burned Prediction
 
-A regression-based machine learning project that predicts calories burned during physical activity.
+A machine learning regression model that predicts calories burned based on physical activity and personal measurements.
 
 **Technologies:** Python, Pandas, Scikit-learn, Random Forest Regressor
 
-**Highlights:**
-- Data preprocessing and feature engineering
+**Features:**
+- Dataset preprocessing
+- Feature selection
 - Regression model training
-- Model evaluation using MAE, RMSE, and R²
+- Model performance evaluation
 
-**Results:**
+**Model Performance:**
 - MAE: 1.70
 - RMSE: 2.67
 - R² Score: 0.9982
 
-[View Project](./02-Calories-Burned-Prediction/)
+📁 [View Project](./02-Calories-Burned-Prediction/)
 
-### 03 — YouTube Trending Videos Analysis
+### 📺 03 — YouTube Trending Videos Analysis
 
-An exploratory data analysis project examining YouTube trending video statistics.
+An exploratory data analysis project examining trends and patterns in YouTube video statistics.
 
 **Technologies:** Python, Pandas, NumPy, Matplotlib, Seaborn
 
-**Highlights:**
-- Dataset cleaning and exploration
-- Analysis of video views, likes, comments, and categories
-- Data visualization and trend identification
+**Features:**
+- Data cleaning and preprocessing
+- Exploratory data analysis
+- Trending video analysis
+- Data visualization
+- Identification of engagement patterns
 
-[View Project](./03-YouTube-Trending-Videos-Analysis/)
+📁 [View Project](./03-YouTube-Trending-Videos-Analysis/)
 
-### 04 — Hate Speech Detection
+### 🛡️ 04 — Hate Speech Detection
 
-An NLP-based classification project for detecting hate speech and offensive language in text.
+An NLP-based machine learning project that classifies text into hate speech, offensive language, and neither category.
 
 **Technologies:** Python, NLP, TF-IDF, Logistic Regression
 
-**Highlights:**
-- Text cleaning and preprocessing
-- Multi-class text classification
-- Classification report and confusion matrix
+**Features:**
+- Text preprocessing
+- Multi-class classification
+- Model training and evaluation
+- Classification report
+- Confusion matrix visualization
 
-**Model Accuracy:** 86.86%
+**Overall Accuracy:** 86.86%
 
-[View Project](./04-Hate-Speech-Detection/)
+📁 [View Project](./04-Hate-Speech-Detection/)
 
-### 05 — Chatbot with NLP
+### 🤖 05 — Chatbot with NLP
 
-An intent-based chatbot that recognizes user messages and generates predefined responses.
+An intent-based chatbot developed using Natural Language Processing techniques.
 
 **Technologies:** Python, NLTK, TF-IDF, Logistic Regression
 
-**Highlights:**
-- Text tokenization and stemming
-- Intent classification
-- Interactive terminal-based chatbot
-- Saving and loading trained models using Joblib
+**Features:**
+- Text tokenization
+- Word stemming
+- Intent recognition
+- Interactive chatbot responses
+- Model persistence using Joblib
 
-**Test Accuracy:** 87.50% on the project's test split
+**Test Accuracy:** 87.50%
 
-[View Project](./05-Chatbot-with-NLP/)
+📁 [View Project](./05-Chatbot-with-NLP/)
 
-### 06 — Text Autocorrector
+### ✍️ 06 — Text Autocorrector
 
-A Python-based text correction application using N-gram language modeling and word similarity.
+A Python-based spelling correction system that uses N-gram language modeling and word similarity.
 
 **Technologies:** Python, NLP, Unigrams, Bigrams
 
-**Highlights:**
-- Vocabulary generation from training text
-- Spelling correction suggestions
-- Context-aware candidate ranking
-- Interactive text correction
+**Features:**
+- Vocabulary generation
+- Spelling correction
+- Context-aware word suggestions
+- Interactive text input
+- Correction history
 
-[View Project](./06-Text-Autocorrector/)
+📁 [View Project](./06-Text-Autocorrector/)
 
-### 07 — Telegram Bot Using Python
+### 💬 07 — Telegram Bot Using Python
 
-An interactive Telegram chatbot developed using Python and the Telegram Bot API.
+An interactive Telegram chatbot built using Python and the Telegram Bot API.
 
 **Technologies:** Python, python-telegram-bot, python-dotenv
 
-**Highlights:**
+**Features:**
 - Telegram BotFather integration
 - Command handling
 - Automated message responses
-- Secure API token management using environment variables
+- AI/ML-related question answering
+- Secure token management using environment variables
 
-[View Project](./07-Telegram-Bot/)
+📁 [View Project](./07-Telegram-Bot/)
 
-### 08 — Flask Chatbot with Web Interface
+### 🌐 08 — Flask Chatbot with Web Interface
 
-A browser-based chatbot application with a Python backend and interactive frontend.
+A browser-based chatbot application with an interactive frontend and Python backend.
 
 **Technologies:** Python, Flask, HTML, CSS, JavaScript
 
-**Highlights:**
+**Features:**
 - Responsive chatbot interface
-- Flask API endpoints
+- Flask backend API
 - JavaScript Fetch API integration
-- Rule-based automated responses
+- Automated rule-based responses
+- User input validation
 - Frontend and backend communication
 
-[View Project](./08-Flask-Chatbot/)
+📁 [View Project](./08-Flask-Chatbot/)
 
-### 09 — Language Translation Using Transformers
+### 🌍 09 — Language Translation Using Transformers
 
-An English-to-French language translation application using a pretrained Transformer model.
+An English-to-French language translation application using a pretrained Transformer-based neural network.
 
 **Technologies:** Python, PyTorch, Hugging Face Transformers, MarianMT
 
-**Highlights:**
+**Features:**
 - Pretrained Transformer model integration
-- Text tokenization
-- English-to-French machine translation
+- English-to-French translation
+- Tokenization and text generation
 - Interactive terminal-based translator
-- Translation history saved to a text file
+- Translation history storage
 
-**Model:** `Helsinki-NLP/opus-mt-en-fr`
+**Pretrained Model:** `Helsinki-NLP/opus-mt-en-fr`
 
-[View Project](./09-Language-Translation/)
+📁 [View Project](./09-Language-Translation/)
 
 ---
 
 ## 🛠️ Technologies and Tools
 
-### Programming Language
+### Programming
 - Python
+- HTML
+- CSS
+- JavaScript
 
 ### Machine Learning
 - Scikit-learn
 - Random Forest
-- Naive Bayes
 - Logistic Regression
+- Naive Bayes
 
 ### Natural Language Processing
 - NLTK
@@ -199,18 +227,41 @@ An English-to-French language translation application using a pretrained Transfo
 - Matplotlib
 - Seaborn
 
-### Web Development and Automation
+### Frameworks and Libraries
 - Flask
-- HTML
-- CSS
-- JavaScript
-- Telegram Bot API
+- PyTorch
+- python-telegram-bot
+- Joblib
 
 ### Development Tools
 - Visual Studio Code
-- Git and GitHub
+- Git
+- GitHub
 - Python Virtual Environments
 - Jupyter Notebook
+
+---
+
+## 📁 Repository Structure
+
+```text
+AI-ML-Mini-Projects/
+│
+├── 01-Spam-Email-Detection/
+├── 02-Calories-Burned-Prediction/
+├── 03-YouTube-Trending-Videos-Analysis/
+├── 04-Hate-Speech-Detection/
+├── 05-Chatbot-with-NLP/
+├── 06-Text-Autocorrector/
+├── 07-Telegram-Bot/
+├── 08-Flask-Chatbot/
+├── 09-Language-Translation/
+│
+├── .gitignore
+└── README.md
+```
+
+Each project is organized into a separate folder for easier navigation and maintenance.
 
 ---
 
@@ -222,7 +273,7 @@ An English-to-French language translation application using a pretrained Transfo
 git clone https://github.com/shrutijha-git/AI-ML-Mini-Projects.git
 ```
 
-### 2. Navigate to the Project Folder
+### 2. Navigate to the Repository
 
 ```bash
 cd AI-ML-Mini-Projects
@@ -236,23 +287,23 @@ python -m venv .venv
 
 ### 4. Activate the Virtual Environment
 
-For Windows PowerShell:
+**Windows PowerShell:**
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
 
-For Windows Command Prompt:
+**Windows Command Prompt:**
 
 ```cmd
 .venv\Scripts\activate.bat
 ```
 
-### 5. Install Project Dependencies
+### 5. Install Dependencies
 
-Each project contains its own `requirements.txt` file.
+Each project has its own `requirements.txt` file.
 
-For example, to install dependencies for the Flask Chatbot:
+For example:
 
 ```bash
 python -m pip install -r 08-Flask-Chatbot/requirements.txt
@@ -260,64 +311,85 @@ python -m pip install -r 08-Flask-Chatbot/requirements.txt
 
 ### 6. Run a Project
 
-For example:
+For example, to run the Flask Chatbot:
 
 ```bash
 python 08-Flask-Chatbot/app.py
 ```
 
-Refer to each project's individual README for its setup instructions.
+Then open:
 
-Some projects require additional datasets, pretrained model downloads, or environment variables.
+`http://127.0.0.1:5000`
+
+To run the Transformer-based translator:
+
+```bash
+python 09-Language-Translation/translator.py
+```
+
+**Note:** Some projects require external datasets, internet access for pretrained model downloads, or API credentials. Refer to each project's README for specific setup instructions.
 
 ---
 
 ## 📚 Key Learning Outcomes
 
-Through these projects, I gained practical experience in:
+Throughout these nine projects, I gained practical experience in:
 
-- Python programming and problem-solving
-- Data preprocessing and exploratory data analysis
-- Supervised machine learning and model evaluation
-- Text classification and natural language processing
+- Python programming
+- Data cleaning and preprocessing
+- Exploratory data analysis
+- Machine learning model training
+- Regression and classification
+- Model evaluation and performance metrics
+- Natural Language Processing
+- Text classification
 - N-gram language modeling
-- Building interactive chatbots
-- Integrating APIs and environment variables
-- Developing web applications with Flask
-- Using pretrained Transformer models
-- Managing Python dependencies
-- Organizing and documenting projects with Git and GitHub
+- Chatbot development
+- Telegram Bot API integration
+- Flask web application development
+- Frontend and backend integration
+- Transformer-based language translation
+- Using pretrained AI models
+- Git and GitHub version control
+- Project documentation and organization
 
 ---
 
 ## 🔮 Future Improvements
 
-- Deploy selected projects as interactive web applications
-- Build more advanced chatbot systems
-- Improve model evaluation and performance
-- Explore deep learning architectures
-- Add multilingual NLP capabilities
-- Experiment with additional Transformer models
-- Develop user-friendly interfaces for ML applications
+- Deploy selected projects as web applications
+- Add more advanced NLP capabilities
+- Experiment with deep learning models
+- Develop multilingual chatbots
+- Improve model performance
+- Add interactive dashboards
+- Integrate additional APIs
+- Explore generative AI applications
 
 ---
 
 ## 👩‍💻 About This Repository
 
-This repository documents my hands-on learning journey in Artificial Intelligence and Machine Learning.
+This repository represents my hands-on learning journey in Artificial Intelligence and Machine Learning.
 
-Each project represents an opportunity to explore a new concept, implement it using Python, troubleshoot real development challenges, and improve my technical skills.
+I created these projects to improve my programming skills, explore AI/ML technologies, and gain practical experience building applications.
 
-The projects are intended for learning, experimentation, and portfolio demonstration.
+Each project helped me understand a different concept, from basic machine learning classification to Transformer-based natural language processing.
+
+**All nine projects have been successfully implemented and tested.**
 
 ---
 
 ## ⭐ Support
 
-If you find this repository helpful, consider giving it a star!
+If you find this repository useful, consider giving it a star!
 
-**GitHub Repository:** [AI-ML-Mini-Projects](https://github.com/shrutijha-git/AI-ML-Mini-Projects)
+**GitHub:** [AI-ML-Mini-Projects](https://github.com/shrutijha-git/AI-ML-Mini-Projects)
 
 ---
 
-**Built with Python, curiosity, and a passion for learning AI/ML.** 🚀
+### 🎓 Portfolio Completion
+
+**9 / 9 AI/ML Mini-Projects Completed — 100%**
+
+*Built with Python, dedication, and a passion for Artificial Intelligence and Machine Learning.* 🚀
