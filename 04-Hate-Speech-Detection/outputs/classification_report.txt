@@ -1,0 +1,11 @@
+Accuracy: 86.86%
+
+                    precision    recall  f1-score   support
+
+       Hate Speech       0.35      0.57      0.44       279
+Offensive Language       0.97      0.88      0.92      3778
+           Neither       0.76      0.94      0.84       820
+
+          accuracy                           0.87      4877
+         macro avg       0.69      0.79      0.73      4877
+      weighted avg       0.90      0.87      0.88      4877
