@@ -1,0 +1,144 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "How are you",
+        "What's up",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! What would you like to know?",
+        "Hey! Nice to meet you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon",
+        "See you",
+        "I have to go",
+        "Catch you later",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thank you so much",
+        "Thanks a lot",
+        "I appreciate it",
+        "That was helpful",
+        "Many thanks",
+        "Thanks for helping"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python",
+        "Tell me about Python",
+        "Explain Python programming",
+        "Is Python a programming language",
+        "Why learn Python",
+        "What can Python do",
+        "Where is Python used",
+        "What is Python used for"
+      ],
+      "responses": [
+        "Python is a popular programming language used for web development, automation, data science, and AI.",
+        "Python is a beginner-friendly language with many useful libraries."
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": [
+        "What is AI",
+        "Explain artificial intelligence",
+        "Tell me about AI",
+        "What does AI mean",
+        "How does AI work",
+        "What is artificial intelligence",
+        "Why is AI useful",
+        "Where is AI used"
+      ],
+      "responses": [
+        "Artificial intelligence enables computers to perform tasks that normally require human intelligence.",
+        "AI is used in areas such as language processing, computer vision, and recommendations."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is machine learning",
+        "Explain machine learning",
+        "Tell me about ML",
+        "How does machine learning work",
+        "What is ML",
+        "Why use machine learning",
+        "Where is machine learning used",
+        "Is machine learning part of AI"
+      ],
+      "responses": [
+        "Machine learning is a branch of AI where computers learn patterns from data.",
+        "Machine learning uses data to train models that make predictions or classifications."
+      ]
+    },
+    {
+      "tag": "nlp",
+      "patterns": [
+        "What is NLP",
+        "Explain natural language processing",
+        "Tell me about NLP",
+        "What does NLP mean",
+        "How does NLP work",
+        "What is natural language processing",
+        "Where is NLP used",
+        "Why is NLP important"
+      ],
+      "responses": [
+        "NLP stands for Natural Language Processing. It helps computers work with human language.",
+        "NLP is used in chatbots, translation, text classification, and sentiment analysis."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help me",
+        "What can you do",
+        "How can you help",
+        "What topics do you know",
+        "Tell me your features",
+        "What questions can I ask",
+        "What do you know",
+        "Can you help me"
+      ],
+      "responses": [
+        "I can answer basic questions about Python, AI, machine learning, and NLP.",
+        "Ask me about Python, artificial intelligence, machine learning, or NLP!"
+      ]
+    }
+  ]
+}

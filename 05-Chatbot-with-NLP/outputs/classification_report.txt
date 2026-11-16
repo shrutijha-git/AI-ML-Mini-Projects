@@ -1,0 +1,16 @@
+Accuracy: 87.50%
+
+                  precision    recall  f1-score   support
+
+              ai       0.67      1.00      0.80         2
+         goodbye       1.00      0.50      0.67         2
+        greeting       0.67      1.00      0.80         2
+            help       1.00      1.00      1.00         2
+machine_learning       1.00      0.50      0.67         2
+             nlp       1.00      1.00      1.00         2
+          python       1.00      1.00      1.00         2
+          thanks       1.00      1.00      1.00         2
+
+        accuracy                           0.88        16
+       macro avg       0.92      0.88      0.87        16
+    weighted avg       0.92      0.88      0.87        16
