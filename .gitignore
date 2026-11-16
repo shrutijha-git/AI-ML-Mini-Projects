@@ -1,6 +1,17 @@
+# Python virtual environment
 .venv/
+
+# Python cache files
 __pycache__/
 *.pyc
+
+# Environment variables and secret tokens
 .env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Saved machine learning models
 *.joblib
