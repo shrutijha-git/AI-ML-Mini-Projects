@@ -1,0 +1,36 @@
+YOUTUBE TRENDING VIDEOS ANALYSIS
+========================================
+
+Total trending records: 40901
+Unique videos: 6351
+Unique channels: 2207
+Average views: 2360678.04
+Average likes: 74271.73
+Average comments: 8448.57
+Average engagement rate: 4.05%
+
+TOP 10 CATEGORIES
+category_name
+Entertainment           9944
+Music                   6467
+Howto & Style           4142
+Comedy                  3453
+People & Blogs          3208
+News & Politics         2485
+Science & Technology    2397
+Film & Animation        2343
+Sports                  2172
+Education               1655
+
+TOP 10 CHANNELS
+channel_title
+ESPN                                      202
+The Tonight Show Starring Jimmy Fallon    197
+Netflix                                   193
+Vox                                       192
+TheEllenShow                              192
+The Late Show with Stephen Colbert        187
+Jimmy Kimmel Live                         185
+Late Night with Seth Meyers               183
+Screen Junkies                            182
+NBA                                       181
