@@ -1,0 +1,39 @@
+ENGLISH TO FRENCH TRANSLATION RESULTS
+=============================================
+
+English: Hello, how are you?
+French : Bonjour, comment ça va ?
+
+English: Good morning!
+French : Bonjour !
+
+English: I love learning Python.
+French : J'adore apprendre Python.
+
+English: Artificial intelligence is changing the world.
+French : L'intelligence artificielle change le monde.
+
+English: Machine learning helps computers learn from data.
+French : L'apprentissage automatique aide les ordinateurs à apprendre des données.
+
+English: Natural language processing is very interesting.
+French : Le traitement du langage naturel est très intéressant.
+
+English: I am building my final AI project.
+French : Je construis mon dernier projet d'IA.
+
+English: This is my language translation application.
+French : C'est mon application de traduction linguistique.
+
+English: Technology makes our lives easier.
+French : La technologie nous facilite la vie.
+
+English: Thank you for helping me.
+French : Merci de m'avoir aidé.
+
+English: I am learning artificial intelligence.
+French : J'apprends l'intelligence artificielle.
+
+English: I want to become a machine learning engineer.
+French : Je veux devenir ingénieur d'apprentissage automatique.
+

@@ -1,0 +1,10 @@
+Hello, how are you?
+Good morning!
+I love learning Python.
+Artificial intelligence is changing the world.
+Machine learning helps computers learn from data.
+Natural language processing is very interesting.
+I am building my final AI project.
+This is my language translation application.
+Technology makes our lives easier.
+Thank you for helping me.
